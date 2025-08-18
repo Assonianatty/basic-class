@@ -1,0 +1,12 @@
+datatypes
+
+
+
+int
+string
+char
+boolean
+byte
+short
+long
+array
