@@ -17,15 +17,20 @@ name = "pascal"
 print(f"normal")
 upper_name="SANCTUS"
 print(upper_name)
+upper_name.upper()
+
+
+
+
 
 
 text = "this is a string of text"
 text_b = "debbbie"
-text_count = text.count("T")
+text_count = text. lower().count("t")
 print(text_count)
 #Add add
 
 
-
+ 
 
 
