@@ -7,7 +7,7 @@ num2 = int(input("enter the second number "))
 
 
 
-if (op.lower(=="sum")
+if (op.lower(== "sum")
     print(f"this is the sum: {sum}")
 elif (op.lower =="difference"):
     print(f"this is the difference of the two numbers:{diff}")
