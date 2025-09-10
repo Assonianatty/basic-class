@@ -16,15 +16,15 @@ def password_strength_checker():
                 has_digit = True
 
         if len(password) < 8:
-            print("❌ Password must be at least 8 characters long.")
+            print("Password must be at least 8 characters long.")
         elif not has_upper:
-            print("❌ Password must contain at least one uppercase letter.")
+            print("Password must contain at least one uppercase letter.")
         elif not has_lower:
-            print("❌ Password must contain at least one lowercase letter.")
+            print("Password must contain at least one lowercase letter.")
         elif not has_digit:
-            print("❌ Password must contain at least one number.")
+            print("Password must contain at least one number.")
         else:
-            print("✅ Strong password set successfully!")
+            print("Strong password set successfully!")
             break
 
 # Run the program
